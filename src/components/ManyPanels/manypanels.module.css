@@ -1,0 +1,57 @@
+.card {
+    border: 1px solid azure;
+    padding: 1%;
+    width: 16vw;
+    text-align: center;
+}
+
+.date {
+    font-size: 65%;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 45%;
+    font-weight: bold;
+}
+
+.display {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.image {
+
+    height: 8vh;
+
+}
+
+.disp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.degrees {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.feels {
+    font-size: 1.2vh;
+    margin-bottom: 0;
+
+}

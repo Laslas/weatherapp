@@ -1,0 +1,60 @@
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-image: url('../img/raindrops.jpg');
+    width: 100%;
+    /* The image used */
+
+
+    /* Full height */
+    height: 8vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    align-items: center;
+    background-color: rgb(27, 57, 76, 0.8);
+    margin: 0 auto;
+    height: 8vh;
+}
+
+.nav-name {
+    font-size: 40px;
+
+}
+
+.nav-dot {
+    color: var(--blue);
+    font-size: 46px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-li {
+    margin-left: 9px;
+    font-size: 15px;
+    color: var(--black);
+}
+
+.nav-li:hover {
+    color: var(--blue);
+}

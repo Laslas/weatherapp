@@ -1,0 +1,41 @@
+.footer {
+
+
+
+    background-image: url('../img/raindrops.jpg');
+    width: 100%;
+    /* The image used */
+
+
+    /* Full height */
+    height: 25vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    align-items: center;
+    background-color: rgb(27, 57, 76, 0.8);
+    margin: 0 auto;
+    height: 25vh;
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    width: 20%;
+}

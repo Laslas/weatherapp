@@ -1,0 +1,155 @@
+.pic {
+    background-image: url('../img/raindrops.jpg');
+    width: 100%;
+    /* The image used */
+
+
+    /* Full height */
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+
+}
+
+
+
+.weather {
+
+    margin: 0 auto;
+
+
+    padding: 1%;
+    background-color: rgb(240, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 6vh;
+}
+
+.loading {
+
+    color: red;
+
+    text-align: center;
+}
+
+.loading>h1 {
+    font-size: 60px;
+}
+
+
+input {
+    height: 100%;
+
+    width: 90%;
+}
+
+button {
+    height: 100%;
+    width: 10%;
+    background-color: #16394C;
+    margin: 0 auto;
+
+
+
+}
+
+svg {
+    fill: azure;
+    height: 3vh;
+}
+
+.results {
+
+    border: 3px solid #5F8094;
+
+    width: 65vw;
+    background-color: #16394C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgb(240, 255, 255);
+
+
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title>h2 {
+    font-size: 3vh;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 5%;
+
+}
+
+img {
+    /* height: 7vh;
+    width: 7vw; */
+    border-radius: 50%;
+    align-self: center;
+}
+
+.temp>h2 {
+    font-size: 7vh;
+    margin-top: -37px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.desc>h2 {
+    font-size: 2vh;
+}
+
+.info {
+    display: flex;
+    font-size: 1vh;
+    justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+.time-cont {
+    background-image: url('../img/raindrops.jpg');
+    width: 100%;
+    /* The image used */
+
+
+    /* Full height */
+    height: 35vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    background-color: rgb(240, 255, 255, 0.3);
+    padding: 2%;
+    margin: 0 auto;
+    color: azure;
+
+}
+
+.panel {
+    width: 40vw;
+    height: 20vh;
+    background-color: #16394C;
+    padding: 1%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}

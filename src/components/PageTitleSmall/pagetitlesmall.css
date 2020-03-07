@@ -1,0 +1,12 @@
+.pageTitle-small-footer {
+    font-size: 2vh;
+    color: azure;
+    margin: 1%;
+}
+
+.pageTitle-small-footerBold {
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: azure;
+    margin: 1%;
+}

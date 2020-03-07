@@ -1,0 +1,21 @@
+.name-primary {
+    color: var(--black);
+    font-size: 40px;
+}
+
+.name-secondary {
+    color: #16394C;
+    font-size: 5vh;
+}
+
+.nav-dot {
+    color: #16394C;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.u {
+    font-style: italic;
+    color: azure;
+
+}

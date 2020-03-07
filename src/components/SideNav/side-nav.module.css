@@ -1,0 +1,19 @@
+.ul {
+    width: 12vw;
+    background-color: rgb(240, 255, 255, 0.3);
+    padding: 2%;
+}
+
+.li {
+    text-align: center;
+    border: 1px solid #15394C;
+    padding: 2%;
+    margin-bottom: 3%;
+    background-color: #15394C;
+    color: azure;
+}
+
+.li:hover {
+    background-color: azure §;
+    color: #15394C;
+}
